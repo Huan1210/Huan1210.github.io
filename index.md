@@ -3,7 +3,7 @@
 您可以使用[GitHub编辑器](https://github.com/Huan1210/Huan1210.github.io/edit/master/index.md) 在Markdown文件中维护和预览您网站的内容。
 每当您提交此存储库时，GitHub Pages将运行[Jekyll](https://jekyllrb.com/) 从Markdown文件中的内容重建您网站中的页面。
 ### Markdown
-103/5000
+
 Markdown是一种轻量级且易于使用的语法，用于为您的写作设计风格。 它包括的约定
 
 ```markdown
