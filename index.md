@@ -6,14 +6,6 @@
 
 ```markdown
 
-# 定义函数
-def triangle():
-  N = [1]
-  while True:
-    yield N
-    N.append(0)
-    N = [ N[i-1] + N[i] for i in range(len(N))]
-
 # 期待输出:
 # [1]
 # [1, 1]
@@ -25,6 +17,15 @@ def triangle():
 # [1, 7, 21, 35, 35, 21, 7, 1]
 # [1, 8, 28, 56, 70, 56, 28, 8, 1]
 # [1, 9, 36, 84, 126, 126, 84, 36, 9, 1]
+
+
+# 定义函数
+def triangle():
+  N = [1]
+  while True:
+    yield N
+    N.append(0)
+    N = [ N[i-1] + N[i] for i in range(len(N))]
 
 n = 0
 results = []
